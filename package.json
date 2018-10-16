@@ -1,0 +1,23 @@
+{
+    "name": "resource-manager",
+    "version": "1.0.0",
+    "description": "资源依赖管理",
+    "author": "Aguangtian",
+    "main": "main.js",
+    "main-menu": {
+        "Packages/通用/场景及其依赖管理": {
+            "message": "resource-manager:run"
+        }
+    },
+    "dependencies": {},
+    "devDependencies": {
+
+    },
+    "panel": {
+        "main": "panel/index.js",
+        "type": "dockable",
+        "title": "资源依赖管理",
+        "width": 600,
+        "height": 800
+    }
+}
